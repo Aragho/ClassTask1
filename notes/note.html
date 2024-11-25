@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note App</title>
+    <link href = "note.css" rel = "stylesheet"/>
+    </head>
+    <body>
+        <div class = "container">
+            <header>
+                <div id = "page-banner">
+                    <h1 class = "title">TO DO LIST</h1>
+                    <p>Task List</p>
+                    <form id = "search-notes">
+                        
+                        <input type = "text" placeholder = "Search notes......"/>
+                    </form>
+                </div>
+            </header>
+                <div class="row">
+                    <input type = "text" id = "input-box" placeholder="Add your text">
+                    <button onclick = "addTask()">Add+</button>
+                </div>
+                <ul id = "list-container"> 
+                </ul>
+            </div>
+        </div>
+        <script src ="note.js"></script>
+    
+    </body>
+</html> 
